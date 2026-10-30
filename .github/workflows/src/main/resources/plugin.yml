@@ -1,0 +1,12 @@
+name: AuthPlugin
+version: 1.0.0
+main: ru.example.auth.AuthPlugin
+api-version: '1.21'
+author: you
+commands:
+  reg:
+    description: Регистрация
+    usage: /reg <пароль> <повтор>
+  login:
+    description: Вход
+    usage: /login <пароль>
